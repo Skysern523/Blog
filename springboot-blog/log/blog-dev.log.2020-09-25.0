@@ -1,0 +1,77 @@
+2020-09-25 09:22:42.218  INFO 14580 --- [restartedMain] com.chw.SpringbootBlogApplication        : Starting SpringbootBlogApplication on DESKTOP-V4EAC2Q with PID 14580 (D:\springboot-blog\target\classes started by CHW in D:\springboot-blog)
+2020-09-25 09:22:42.234 DEBUG 14580 --- [restartedMain] com.chw.SpringbootBlogApplication        : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-25 09:22:42.234  INFO 14580 --- [restartedMain] com.chw.SpringbootBlogApplication        : The following profiles are active: dev
+2020-09-25 09:22:42.281  INFO 14580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-25 09:22:42.281  INFO 14580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-25 09:22:43.234  WARN 14580 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.chw]' package. Please check your configuration.
+2020-09-25 09:22:43.296  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:22:43.296  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-09-25 09:22:43.343  INFO 14580 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.chw.dao.BlogRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-09-25 09:22:43.343  INFO 14580 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.chw.dao.TagRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-09-25 09:22:43.343  INFO 14580 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.chw.dao.TypeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-09-25 09:22:43.343  INFO 14580 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.chw.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-09-25 09:22:43.343  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 0 JDBC repository interfaces.
+2020-09-25 09:22:43.343  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:22:43.343  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-25 09:22:43.390  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 4 JPA repository interfaces.
+2020-09-25 09:22:44.155  INFO 14580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-25 09:22:44.155  INFO 14580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-25 09:22:44.155  INFO 14580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-25 09:22:44.296  INFO 14580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-25 09:22:44.296  INFO 14580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2015 ms
+2020-09-25 09:22:44.468  INFO 14580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:22:44.515  INFO 14580 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-25 09:22:44.577  INFO 14580 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-25 09:22:44.671  WARN 14580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-25 09:22:44.764  INFO 14580 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-25 09:22:44.874  INFO 14580 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-25 09:22:44.874  WARN 14580 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-09-25 09:22:44.999  INFO 14580 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-25 09:22:45.030  INFO 14580 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-25 09:22:45.046  INFO 14580 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-09-25 09:22:45.905  INFO 14580 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-25 09:22:45.920  INFO 14580 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-25 09:22:46.045  INFO 14580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-25 09:22:46.092  INFO 14580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 09:22:46.092  INFO 14580 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-25 09:22:46.764  INFO 14580 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-25 09:22:46.764  INFO 14580 --- [restartedMain] com.chw.SpringbootBlogApplication        : Started SpringbootBlogApplication in 5.101 seconds (JVM running for 6.699)
+2020-09-25 09:23:26.315  INFO 14580 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 09:23:26.315  INFO 14580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-25 09:23:26.328  INFO 14580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-09-25 09:23:26.361  INFO 14580 --- [http-nio-8080-exec-1] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/', ip='/', CLassMethod='com.chw.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2020-09-25 09:23:26.473  WARN 14580 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-09-25 09:23:26.487  WARN 14580 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-09-25 09:23:26.494  INFO 14580 --- [http-nio-8080-exec-1] com.chw.aspect.LogAspect                 : result:{}index
+2020-09-25 09:23:27.452  INFO 14580 --- [http-nio-8080-exec-4] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:23:27.467  INFO 14580 --- [http-nio-8080-exec-4] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
+2020-09-25 09:23:33.069  INFO 14580 --- [http-nio-8080-exec-3] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/types/3', ip='/types/3', CLassMethod='com.chw.controller.TypeShowController.types', args=[Page request [number: 0, size 3, sort: updateTime: DESC], 3, {}]}
+2020-09-25 09:23:33.083  INFO 14580 --- [http-nio-8080-exec-3] com.chw.aspect.LogAspect                 : result:{}types
+2020-09-25 09:23:33.454  INFO 14580 --- [http-nio-8080-exec-1] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:23:33.462  INFO 14580 --- [http-nio-8080-exec-1] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
+2020-09-25 09:23:35.574  INFO 14580 --- [http-nio-8080-exec-5] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/tags/-1', ip='/tags/-1', CLassMethod='com.chw.controller.TagShowController.tags', args=[Page request [number: 0, size 3, sort: updateTime: DESC], -1, {}]}
+2020-09-25 09:23:35.598  INFO 14580 --- [http-nio-8080-exec-5] com.chw.aspect.LogAspect                 : result:{}tags
+2020-09-25 09:23:36.094  INFO 14580 --- [http-nio-8080-exec-9] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:23:36.099  INFO 14580 --- [http-nio-8080-exec-9] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
+2020-09-25 09:23:37.572  INFO 14580 --- [http-nio-8080-exec-6] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/tags/11', ip='/tags/11', CLassMethod='com.chw.controller.TagShowController.tags', args=[Page request [number: 0, size 3, sort: updateTime: DESC], 11, {}]}
+2020-09-25 09:23:37.589  INFO 14580 --- [http-nio-8080-exec-6] com.chw.aspect.LogAspect                 : result:{}tags
+2020-09-25 09:23:37.969  INFO 14580 --- [http-nio-8080-exec-3] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:23:37.976  INFO 14580 --- [http-nio-8080-exec-3] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
+2020-09-25 09:23:40.021  INFO 14580 --- [http-nio-8080-exec-7] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/archives', ip='/archives', CLassMethod='com.chw.controller.ArchIveShowController.archives', args=[{}]}
+2020-09-25 09:23:40.044  INFO 14580 --- [http-nio-8080-exec-7] com.chw.aspect.LogAspect                 : result:{}archives
+2020-09-25 09:23:40.388  INFO 14580 --- [http-nio-8080-exec-8] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:23:40.393  INFO 14580 --- [http-nio-8080-exec-8] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
+2020-09-25 09:23:49.722  INFO 14580 --- [http-nio-8080-exec-5] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/about', ip='/about', CLassMethod='com.chw.controller.AboutMeController.about', args=[]}
+2020-09-25 09:23:49.725  INFO 14580 --- [http-nio-8080-exec-5] com.chw.aspect.LogAspect                 : result:{}about
+2020-09-25 09:23:50.176  INFO 14580 --- [http-nio-8080-exec-2] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:23:50.181  INFO 14580 --- [http-nio-8080-exec-2] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
+2020-09-25 09:24:04.416  INFO 14580 --- [http-nio-8080-exec-1] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/admin', ip='/admin', CLassMethod='com.chw.controller.admin.LoginController.loginPage', args=[]}
+2020-09-25 09:24:04.420  INFO 14580 --- [http-nio-8080-exec-1] com.chw.aspect.LogAspect                 : result:{}admin/login2
+2020-09-25 09:24:08.143  INFO 14580 --- [http-nio-8080-exec-8] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/about', ip='/about', CLassMethod='com.chw.controller.AboutMeController.about', args=[]}
+2020-09-25 09:24:08.143  INFO 14580 --- [http-nio-8080-exec-8] com.chw.aspect.LogAspect                 : result:{}about
+2020-09-25 09:24:08.479  INFO 14580 --- [http-nio-8080-exec-2] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:24:08.484  INFO 14580 --- [http-nio-8080-exec-2] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
+2020-09-25 09:37:49.152  INFO 14580 --- [http-nio-8080-exec-6] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/about', ip='/about', CLassMethod='com.chw.controller.AboutMeController.about', args=[]}
+2020-09-25 09:37:49.153  INFO 14580 --- [http-nio-8080-exec-6] com.chw.aspect.LogAspect                 : result:{}about
+2020-09-25 09:37:49.524  INFO 14580 --- [http-nio-8080-exec-2] com.chw.aspect.LogAspect                 : Request : Requestlog{url='/footer/newblog', ip='/footer/newblog', CLassMethod='com.chw.controller.IndexController.newblogs', args=[{}]}
+2020-09-25 09:37:49.530  INFO 14580 --- [http-nio-8080-exec-2] com.chw.aspect.LogAspect                 : result:{}_fragments :: newblogList
